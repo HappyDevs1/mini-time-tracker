@@ -30,7 +30,7 @@ npm install
 ```
 **Start the development server:**
 ```bash
-npm start
+npm run dev
 ```
 **Open the app in your browser:**
 
