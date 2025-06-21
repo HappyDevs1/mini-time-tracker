@@ -65,35 +65,35 @@ http://localhost:5173
 
 ## What I'd Improve with More Time
 ### Core Improvements
-**1. User Authentication:**
-  Add login system with JWT tokens
-  Support multiple users with separate data
-**2. Backend Integration:**
-  Create Node.js/Express API
-  Use MongoDB/PostgreSQL for data storage
-  Implement proper data synchronization
-**3. Enhanced Timer:**
-  Web Workers for more accurate timing
-  Background timer persistence
-  Pause/resume functionality
-**4. Reporting Features:**
-  Daily/weekly/monthly summaries
-  Charts and visualizations (using Chart.js)
-  Export to CSV/PDF functionality
-**5. UI/UX Improvements:**
-   Mobile-first approach
-   Dedicated mobile app using React Native
-**6. Dark Mode:**
-   Implement theme switching
-   Respect system preferences
-**7. Drag and Drop:**
-   Reorder entries with drag and drop
-   Visual timeline of tasks
-**8. Notifications:**
-   Browser notifications for timer events
-   Reminders for long-running tasks
+- **1. User Authentication:**
+  - Add login system with JWT tokens
+  - Support multiple users with separate data
+- **2. Backend Integration:**
+  - Create Node.js/Express API
+  - Use MongoDB/PostgreSQL for data storage
+  - Implement proper data synchronization
+- **3. Enhanced Timer:**
+  - Web Workers for more accurate timing
+  - Background timer persistence
+  - Pause/resume functionality
+- **4. Reporting Features:**
+  - Daily/weekly/monthly summaries
+  - Charts and visualizations (using Chart.js)
+  - Export to CSV/PDF functionality
+- **5. UI/UX Improvements:**
+   - Mobile-first approach
+   - Dedicated mobile app using React Native
+- **6. Dark Mode:**
+   - Implement theme switching
+   - Respect system preferences
+- **7. Drag and Drop:**
+   - Reorder entries with drag and drop
+   - Visual timeline of tasks
+- **8. Notifications:**
+   - Browser notifications for timer events
+   - Reminders for long-running tasks
 
-**6. Advanced Features**
+- **6. Advanced Features**
    - Project Management:
       Organize tasks by projects
       Add tags/categories for better organization
