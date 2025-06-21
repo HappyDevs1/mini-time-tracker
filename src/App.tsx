@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TimeEntryForm from './components/TaskEntryForm';
 import TimeEntryList from './components/TimeEntryList';
 import type { TimeEntry } from './types';
+import Timer from './components/Timer';
 
 const App: React.FC = () => {
   // State to manage time entries, initialized from localStorage
@@ -20,14 +21,21 @@ const App: React.FC = () => {
   const totalHours = entries.reduce((sum, entry) => sum + entry.hours, 0);
 
   // Functions to add, delete, and update time entries
-  const addEntry = (taskName: string, hours: number) => {
-    // Add a new entry with a unique id
+  const addEntry = (entry: TimeEntry | string, hours?: number) => {
+  if (typeof entry === 'string') {
+    // Called from form (taskName: string, hours: number)
     setEntries([...entries, {
       id: Date.now().toString(),
-      taskName,
-      hours
+      taskName: entry,
+      hours: hours!,
+      startTime: null,
+      isRunning: false
     }]);
-  };
+  } else {
+    // Called from timer (full TimeEntry object)
+    setEntries([...entries, entry]);
+  }
+};
 
   const deleteEntry = (id: string) => {
     // Filter out the entry with the given id
@@ -45,6 +53,12 @@ const App: React.FC = () => {
     <div className="container mx-auto p-4 max-w-2xl">
       <h1 className="text-3xl font-bold mb-6">Mini Time Tracker</h1>
       
+      <Timer 
+      entries={entries} 
+      updateEntry={updateEntry} 
+      addEntry={addEntry}
+    />
+
       <TimeEntryForm onSubmit={addEntry} />
       
       <TimeEntryList 
