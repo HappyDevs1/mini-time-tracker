@@ -47,53 +47,53 @@ http://localhost:5173
 5. Time entries don't need date information
 
 ### Trade-offs
-1. Local Storage vs Database:
+**1. Local Storage vs Database:**
    Used localStorage for simplicity and offline support
-2. Trade-off: Data not synced across devices
-3. Timer Implementation:
+   - **Trade-off:** Data not synced across devices
+**2. Timer Implementation:**
    Used JavaScript intervals for timer updates
-4. Trade-off: Potential drift over long periods
-5. UI Framework:
+   - **Trade-off:** Potential drift over long periods
+**3. UI Framework:**
    Used Tailwind CSS for rapid styling
-6. Trade-off: Larger CSS bundle size
-7. State Management:
+   - **Trade-off:** Larger CSS bundle size
+**4. State Management:**
    Used React useState for simplicity
-8. Trade-off: Might become complex with more features
-9. Form Validation:
+   - **Trade-off:** Might become complex with more features
+**5. Form Validation:**
    Basic client-side validation only
-10. Trade-off: No server-side validation
+   - **Trade-off:** No server-side validation
 
 ## What I'd Improve with More Time
 ### Core Improvements
-1. User Authentication:
+**1. User Authentication:**
   Add login system with JWT tokens
   Support multiple users with separate data
-2. Backend Integration:
+**2. Backend Integration:**
   Create Node.js/Express API
   Use MongoDB/PostgreSQL for data storage
   Implement proper data synchronization
-3. Enhanced Timer:
+**3. Enhanced Timer:**
   Web Workers for more accurate timing
   Background timer persistence
   Pause/resume functionality
-4. Reporting Features:
+**4. Reporting Features:**
   Daily/weekly/monthly summaries
   Charts and visualizations (using Chart.js)
   Export to CSV/PDF functionality
-5. UI/UX Improvements:
+**5. UI/UX Improvements:**
    Mobile-first approach
    Dedicated mobile app using React Native
-6. Dark Mode:
+**6. Dark Mode:**
    Implement theme switching
    Respect system preferences
-7. Drag and Drop:
+**7. Drag and Drop:**
    Reorder entries with drag and drop
    Visual timeline of tasks
-8. Notifications:
+**8. Notifications:**
    Browser notifications for timer events
    Reminders for long-running tasks
 
-6. Advanced Features
+**6. Advanced Features**
    - Project Management:
       Organize tasks by projects
       Add tags/categories for better organization
