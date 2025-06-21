@@ -48,20 +48,20 @@ http://localhost:5173
 
 ### Trade-offs
 1. Local Storage vs Database:
-2. Used localStorage for simplicity and offline support
-3. Trade-off: Data not synced across devices
-   Timer Implementation:
+   Used localStorage for simplicity and offline support
+2. Trade-off: Data not synced across devices
+3. Timer Implementation:
    Used JavaScript intervals for timer updates
-6. Trade-off: Potential drift over long periods
-   UI Framework:
+4. Trade-off: Potential drift over long periods
+5. UI Framework:
    Used Tailwind CSS for rapid styling
-8. Trade-off: Larger CSS bundle size
-   State Management:
+6. Trade-off: Larger CSS bundle size
+7. State Management:
    Used React useState for simplicity
-9. Trade-off: Might become complex with more features
-Form Validation:
-Basic client-side validation only
-Trade-off: No server-side validation
+8. Trade-off: Might become complex with more features
+9. Form Validation:
+   Basic client-side validation only
+10. Trade-off: No server-side validation
 
 ## What I'd Improve with More Time
 ### Core Improvements
