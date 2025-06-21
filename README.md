@@ -38,19 +38,6 @@ npm start
 ```text
 http://localhost:5173
 ```
-**Building for Production**
-```bash
-npm run build
-```
-**Deployment**
-Install Vercel CLI:
-```bash
-npm install -g vercel
-```
-**Deploy to Vercel:**
-```bash
-vercel
-```
 
 ## Assumptions and Trade-offs
 ### Assumptions
@@ -94,78 +81,37 @@ Trade-off: No server-side validation
   Daily/weekly/monthly summaries
   Charts and visualizations (using Chart.js)
   Export to CSV/PDF functionality
+5. UI/UX Improvements:
+   Mobile-first approach
+   Dedicated mobile app using React Native
+   Dark Mode:
+      Implement theme switching
+   Respect system preferences
+   Drag and Drop:
+      Reorder entries with drag and drop
+      Visual timeline of tasks
+   Notifications:
+      Browser notifications for timer events
+      Reminders for long-running tasks
 
-UI/UX Improvements
-Responsive Design:
-
-Mobile-first approach
-
-Dedicated mobile app using React Native
-
-Dark Mode:
-
-Implement theme switching
-
-Respect system preferences
-
-Drag and Drop:
-
-Reorder entries with drag and drop
-
-Visual timeline of tasks
-
-Notifications:
-
-Browser notifications for timer events
-
-Reminders for long-running tasks
-
-Advanced Features
-Project Management:
-
-Organize tasks by projects
-
-Add tags/categories for better organization
-
-Time Blocking:
-
-Calendar integration for scheduling
-
-Visual time blocking interface
-
-Pomodoro Timer:
-
-Built-in Pomodoro technique support
-
-Customizable work/break intervals
-
-Integrations:
-
-Connect with productivity tools (Trello, Jira, etc.)
-
-Browser extension for cross-app tracking
-
-Performance Optimization
-Code Splitting:
-
-React.lazy for component-level splitting
-
-Reduce initial bundle size
-
-Caching:
-
-Service workers for offline support
-
-Smart data caching strategies
-
-Accessibility:
-
-Full WCAG 2.1 compliance
-
-Screen reader support
-
-Keyboard navigation
+6. Advanced Features
+   Project Management:
+      Organize tasks by projects
+      Add tags/categories for better organization
+   Time Blocking:
+      Calendar integration for scheduling
+      Visual time blocking interface
+   Pomodoro Timer:
+      Built-in Pomodoro technique support
+      Customizable work/break intervals
+   Integrations:
+      Connect with productivity tools (Trello, Jira, etc.)
+      Browser extension for cross-app tracking
+      Performance Optimization
+   Caching:
+      Service workers for offline support
+      Smart data caching strategies
 
 Live Demo
-The application is deployed on Vercel:
-Mini Time Tracker Live Demo
+The application is deployed on Netlify:
+https://mini-time-tracker.netlify.app/
