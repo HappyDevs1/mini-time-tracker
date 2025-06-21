@@ -1,5 +1,5 @@
-## Mini Time Tracker - React Application
-[https://public/screenshot.png](https://github.com/HappyDevs1/mini-time-tracker/blob/main/Screenshot%20(286).png)
+## Mini Time Tracker
+![image alt](https://github.com/HappyDevs1/mini-time-tracker/blob/main/Screenshot%20(286).png?raw=true)
 
 ## Overview
 The Mini Time Tracker is a web application that helps users track their time spent on various tasks. Users can create time entries with task names and hours worked, view all entries, see total hours worked, and use an active timer to track time in real-time.
@@ -20,7 +20,6 @@ The Mini Time Tracker is a web application that helps users track their time spe
 
 ### Installation
 **Clone the repository:**
-
 ```bash
 git clone https://github.com/HappyDevs1/mini-time-tracker.git
 cd mini-time-tracker
