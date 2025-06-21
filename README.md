@@ -47,19 +47,19 @@ http://localhost:5173
 5. Time entries don't need date information
 
 ### Trade-offs
-**1. Local Storage vs Database:**
+- **1. Local Storage vs Database:**
    Used localStorage for simplicity and offline support
    - **Trade-off:** Data not synced across devices
-**2. Timer Implementation:**
+- **2. Timer Implementation:**
    Used JavaScript intervals for timer updates
    - **Trade-off:** Potential drift over long periods
-**3. UI Framework:**
+- **3. UI Framework:**
    Used Tailwind CSS for rapid styling
    - **Trade-off:** Larger CSS bundle size
-**4. State Management:**
+- **4. State Management:**
    Used React useState for simplicity
    - **Trade-off:** Might become complex with more features
-**5. Form Validation:**
+- **5. Form Validation:**
    Basic client-side validation only
    - **Trade-off:** No server-side validation
 
