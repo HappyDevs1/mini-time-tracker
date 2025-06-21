@@ -83,34 +83,34 @@ http://localhost:5173
 5. UI/UX Improvements:
    Mobile-first approach
    Dedicated mobile app using React Native
-   Dark Mode:
-      Implement theme switching
+6. Dark Mode:
+   Implement theme switching
    Respect system preferences
-   Drag and Drop:
-      Reorder entries with drag and drop
-      Visual timeline of tasks
-   Notifications:
-      Browser notifications for timer events
-      Reminders for long-running tasks
+7. Drag and Drop:
+   Reorder entries with drag and drop
+   Visual timeline of tasks
+8. Notifications:
+   Browser notifications for timer events
+   Reminders for long-running tasks
 
 6. Advanced Features
-   Project Management:
+   - Project Management:
       Organize tasks by projects
       Add tags/categories for better organization
-   Time Blocking:
+   - Time Blocking:
       Calendar integration for scheduling
       Visual time blocking interface
-   Pomodoro Timer:
+   - Pomodoro Timer:
       Built-in Pomodoro technique support
       Customizable work/break intervals
-   Integrations:
+   - Integrations:
       Connect with productivity tools (Trello, Jira, etc.)
       Browser extension for cross-app tracking
       Performance Optimization
-   Caching:
+   - Caching:
       Service workers for offline support
       Smart data caching strategies
 
-Live Demo
-The application is deployed on Netlify:
+## Live Demo
+**The application is deployed on Netlify:**
 https://mini-time-tracker.netlify.app/
